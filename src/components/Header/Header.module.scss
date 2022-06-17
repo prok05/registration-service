@@ -1,0 +1,20 @@
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f6f9f9;
+
+    .header__link {
+        display: flex;
+        align-items: center;
+
+        font-size: 30px;
+        line-height: 20px;
+        color: #2d3950;
+
+        text-decoration: none;
+
+        .header__logo {
+            margin-right: 20px;
+        }
+    }
+}

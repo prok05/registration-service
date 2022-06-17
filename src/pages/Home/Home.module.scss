@@ -1,0 +1,52 @@
+.homeTitle {
+    margin-bottom: 25px;
+    margin-top: 55px;
+
+    font-size: 41px;
+    font-weight: 400;
+    color: #303134;
+
+    text-align: center;
+}
+
+.homeText {
+    margin: 0;
+    margin-bottom: 45px;
+
+    font-size: 15px;
+    line-height: 23px;
+    color: #303134;
+
+    text-align: center;
+}
+
+.homeCreateBtn {
+    font-size: 18px;
+
+    display: block;
+    box-sizing: border-box;
+    width: 160px;
+    padding: 15px;
+
+    color: #ffffff;
+    background-color: #15a4fa;
+
+    text-decoration: none;
+    text-align: center;
+
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: #1c7cb8;
+    }
+
+    &:disabled {
+        background-color: rgb(154, 154, 154);
+        border: none;
+    }
+}

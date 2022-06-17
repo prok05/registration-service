@@ -1,0 +1,34 @@
+.requestItem {
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+
+    margin-bottom: 25px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .requestItemImg {
+        margin-right: 25px;
+    }
+
+    .requestItemInfo {
+        display: flex;
+        flex-direction: column;
+
+        .requestTitle {
+            color: #303134;
+        }
+
+        .requestStatus {
+            color: #999999;
+        }
+
+        .requestDate {
+            color: #999999;
+        }
+    }
+
+
+}
